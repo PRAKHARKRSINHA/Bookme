@@ -1,4 +1,9 @@
 {
+ "engines": {
+ "node":"22.14.0"
+
+
+  },
   "name": "majorproject",
   "version": "1.0.0",
   "main": "index.js",
@@ -10,10 +15,25 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.16.1",
+    "cloudinary": "^2.6.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
     "ejs-mate": "^4.0.0",
     "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "install": "^0.13.0",
+    "joi": "^17.13.3",
     "method-override": "^3.0.0",
-    "mongoose": "^8.13.2"
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "npm": "^11.3.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0"
   }
 }

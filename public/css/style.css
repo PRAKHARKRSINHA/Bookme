@@ -59,7 +59,7 @@ body{
 }
 
 /* Cards */
-.card{
+.listing-card{
     border: none !important;
     margin-bottom: 2rem;
 
@@ -120,3 +120,16 @@ body{
     padding-right: 0;
 }
 
+/* Upload image */
+
+.Upload{
+    height: 15rem;
+    width: 15rem;
+}
+
+/* MAP */
+
+#map { 
+    height: 400px;
+    width: 80vh;
+}
